@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "856931772134",
+    "project_id": "projetomob-cb037",
+    "storage_bucket": "projetomob-cb037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856931772134:android:ad7e917c6a87b1bebe7d27",
+        "android_client_info": {
+          "package_name": "com.example.projetomob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgDXuLZxmkIfk2bv7uq34xn-_ikvqbbwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

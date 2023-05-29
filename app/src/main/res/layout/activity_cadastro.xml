@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61ada0"
+    tools:context=".TelaCadastro">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="301dp"
+        android:layout_height="39dp"
+        android:layout_margin="40dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Cadastro de Treinadores"
+        android:textColor="#FF000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Camponome"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nome"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/Camposorenome"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sobrenome"
+        app:layout_constraintEnd_toEndOf="@+id/Camponome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Camponome"
+        app:layout_constraintTop_toBottomOf="@+id/Camponome" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btnacess"
+        style="android:style/widget.Button"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/btn_login"
+        android:onClick="TelaCadastro"
+        android:text="Acessar"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btncad"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Btncad"
+        style="android:style/widget.Button"
+        android:layout_width="258dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/btn_login"
+        android:onClick="validarCampos"
+        android:text="Cadastrar"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Camposorenome" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
